@@ -14,6 +14,34 @@
       max-width: 400px;
       display: flex;
       flex-direction: column;
+      .remember-me-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        
+        input[type="checkbox"] {
+          margin-right: 8px;
+        }
+  
+        label {
+          font-size: 14px;
+        }
+      }
+  
+      .forgot-password-link {
+        font-size: 14px;
+        margin-top: 10px;
+        text-align: center;
+  
+        a {
+          color: #007bff;
+          text-decoration: none;
+  
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
   
       h2 {
         margin-bottom: 1.5rem;
