@@ -1,0 +1,46 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+  
+    .login-form {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 400px;
+      display: flex;
+      flex-direction: column;
+  
+      h2 {
+        margin-bottom: 1.5rem;
+        text-align: center;
+        color: #333;
+      }
+      .error {
+        color: red;
+        font-size: 0.8rem;
+        margin-top: -5px;
+        margin-bottom: 10px;
+      }
+      .signup-text {
+        margin-top: 1rem;
+        text-align: center;
+        font-size: 0.9rem;
+  
+        a {
+          color: #6e8efb;
+          text-decoration: none;
+          font-weight: bold;
+        }
+      }
+    }
+
+  
+
+    }
+
+  
