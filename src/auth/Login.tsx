@@ -34,12 +34,12 @@ const Login: React.FC = () => {
       <form className="login-form" onSubmit={handleSubmit(onSubmit)}>
         <h2>Login</h2>
 
-        <Input type="email" placeholder="Email" {...register("email")} />
+        <Input type="email" placeholder="Enter your email" {...register("email")} />
    
         <p className="error">{errors.email?.message}</p>
 
         <Input
-          placeholder="Password"
+          placeholder="Enter your password"
           showToggle
           showPassword={showPassword}
           onTogglePassword={() => setShowPassword((prev) => !prev)}
